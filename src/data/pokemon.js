@@ -3,7 +3,8 @@ export const pokemonContestants = [
   {
     id: 1,
     name: "Gardevoir",
-    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/282.png",
+    dexId: 282,
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png",
     stats: {
       acting: 9,
       improv: 7,
@@ -28,7 +29,8 @@ export const pokemonContestants = [
   {
     id: 2,
     name: "Lopunny",
-    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/428.png",
+    dexId: 428,
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/428.png",
     stats: {
       acting: 7,
       improv: 8,
@@ -53,7 +55,8 @@ export const pokemonContestants = [
   {
     id: 3,
     name: "Milotic",
-    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/350.png",
+    dexId: 350,
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/350.png",
     stats: {
       acting: 8,
       improv: 6,
@@ -78,7 +81,8 @@ export const pokemonContestants = [
   {
     id: 4,
     name: "Tsareena",
-    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/763.png",
+    dexId: 763,
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/763.png",
     stats: {
       acting: 8,
       improv: 9,
@@ -103,7 +107,8 @@ export const pokemonContestants = [
   {
     id: 5,
     name: "Primarina",
-    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/730.png",
+    dexId: 730,
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/730.png",
     stats: {
       acting: 9,
       improv: 7,
@@ -128,7 +133,8 @@ export const pokemonContestants = [
   {
     id: 6,
     name: "Salazzle",
-    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/758.png",
+    dexId: 758,
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/758.png",
     stats: {
       acting: 9,
       improv: 10,
@@ -153,7 +159,8 @@ export const pokemonContestants = [
   {
     id: 7,
     name: "Florges",
-    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/671.png",
+    dexId: 671,
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/671.png",
     stats: {
       acting: 7,
       improv: 6,
@@ -178,7 +185,8 @@ export const pokemonContestants = [
   {
     id: 8,
     name: "Jigglypuff",
-    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
+    dexId: 39,
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
     stats: {
       acting: 6,
       improv: 9,
@@ -203,7 +211,8 @@ export const pokemonContestants = [
   {
     id: 9,
     name: "Delphox",
-    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/655.png",
+    dexId: 655,
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/655.png",
     stats: {
       acting: 10,
       improv: 8,
@@ -228,7 +237,8 @@ export const pokemonContestants = [
   {
     id: 10,
     name: "Zoroark",
-    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/571.png",
+    dexId: 571,
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/571.png",
     stats: {
       acting: 10,
       improv: 10,
@@ -253,7 +263,8 @@ export const pokemonContestants = [
   {
     id: 11,
     name: "Lilligant",
-    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/549.png",
+    dexId: 549,
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/549.png",
     stats: {
       acting: 6,
       improv: 7,
@@ -278,7 +289,8 @@ export const pokemonContestants = [
   {
     id: 12,
     name: "Gothitelle",
-    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/576.png",
+    dexId: 576,
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/576.png",
     stats: {
       acting: 8,
       improv: 7,
@@ -303,7 +315,8 @@ export const pokemonContestants = [
   {
     id: 13,
     name: "Bellossom",
-    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/182.png",
+    dexId: 182,
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/182.png",
     stats: {
       acting: 6,
       improv: 7,
@@ -328,7 +341,8 @@ export const pokemonContestants = [
   {
     id: 14,
     name: "Mismagius",
-    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/429.png",
+    dexId: 429,
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/429.png",
     stats: {
       acting: 9,
       improv: 8,
@@ -353,7 +367,8 @@ export const pokemonContestants = [
   {
     id: 15,
     name: "Mawile",
-    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/303.png",
+    dexId: 303,
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/303.png",
     stats: {
       acting: 7,
       improv: 8,
@@ -378,7 +393,8 @@ export const pokemonContestants = [
   {
     id: 16,
     name: "Alcremie",
-    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/869.png",
+    dexId: 869,
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/869.png",
     stats: {
       acting: 5,
       improv: 6,
@@ -403,7 +419,8 @@ export const pokemonContestants = [
   {
     id: 17,
     name: "Sylveon",
-    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/700.png",
+    dexId: 700,
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/700.png",
     stats: {
       acting: 7,
       improv: 8,
@@ -428,7 +445,8 @@ export const pokemonContestants = [
   {
     id: 18,
     name: "Meloetta",
-    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/648.png",
+    dexId: 648,
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/648.png",
     stats: {
       acting: 8,
       improv: 9,
@@ -453,7 +471,8 @@ export const pokemonContestants = [
   {
     id: 19,
     name: "Cinccino",
-    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/573.png",
+    dexId: 573,
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/573.png",
     stats: {
       acting: 6,
       improv: 7,
@@ -478,7 +497,8 @@ export const pokemonContestants = [
   {
     id: 20,
     name: "Vespiquen",
-    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/416.png",
+    dexId: 416,
+    image: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/416.png",
     stats: {
       acting: 8,
       improv: 8,

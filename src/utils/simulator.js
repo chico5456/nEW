@@ -253,14 +253,19 @@ export const getPlacementPoints = (placement) => {
   return points[placement] || 0;
 };
 
-export const getPlacementEmoji = (placement) => {
-  const emojis = {
-    WIN: "👑",
-    HIGH: "⭐",
-    SAFE: "—",
-    LOW: "😬",
-    BTM2: "🚨",
-    ELIM: "❌"
-  };
-  return emojis[placement] || "—";
+// Get placement text for display
+export const getPlacementText = (placement) => {
+  return placement || "—";
+};
+
+// Generate double shantay commentary
+export const generateDoubleShantayCommentary = (queen1, queen2) => {
+  const commentaries = [
+    `This lipsync was TOO good! Both ${queen1.name} and ${queen2.name} - SHANTAY YOU BOTH STAY!`,
+    `We can't send either of you home after that performance! ${queen1.name}, ${queen2.name} - you both stay!`,
+    `That was incredible! ${queen1.name}, ${queen2.name} - neither of you are going anywhere!`,
+    `Two queens entered, and two queens are staying! ${queen1.name} and ${queen2.name}, shantay you BOTH stay!`
+  ];
+
+  return commentaries[Math.floor(Math.random() * commentaries.length)];
 };
