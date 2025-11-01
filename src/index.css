@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-purple-900 via-pink-900 to-purple-900 min-h-screen text-white;
+  }
+}
+
+@layer components {
+  .drag-button {
+    @apply px-6 py-3 rounded-full font-bold text-white transition-all duration-300 transform hover:scale-105 hover:shadow-2xl;
+  }
+
+  .drag-card {
+    @apply bg-gradient-to-br from-purple-800/40 to-pink-800/40 backdrop-blur-sm rounded-xl p-6 border-2 border-pink-500/30 shadow-xl hover:shadow-2xl transition-all duration-300;
+  }
+
+  .queen-card {
+    @apply relative overflow-hidden rounded-xl border-4 border-transparent hover:border-drag-gold transition-all duration-300 transform hover:scale-105 cursor-pointer;
+  }
+
+  .placement-win {
+    @apply bg-gradient-to-r from-yellow-400 to-yellow-600 text-black font-bold;
+  }
+
+  .placement-high {
+    @apply bg-gradient-to-r from-green-400 to-green-600 text-white;
+  }
+
+  .placement-safe {
+    @apply bg-gray-500 text-white;
+  }
+
+  .placement-low {
+    @apply bg-gradient-to-r from-orange-400 to-orange-600 text-white;
+  }
+
+  .placement-btm2 {
+    @apply bg-gradient-to-r from-red-500 to-red-700 text-white;
+  }
+
+  .placement-elim {
+    @apply bg-black text-red-500 font-bold;
+  }
+}
+
+.sparkle {
+  background: linear-gradient(45deg, #FFD700, #FFA500, #FFD700);
+  background-size: 200% 200%;
+  animation: sparkle 2s ease infinite;
+}
+
+@keyframes sparkle {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+.drag-race-font {
+  font-family: 'Impact', 'Arial Black', sans-serif;
+  letter-spacing: 0.05em;
+}
